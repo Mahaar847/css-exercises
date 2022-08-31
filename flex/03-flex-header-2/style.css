@@ -6,15 +6,19 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  justify-content: end;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  margin: 8px;
 }
 
 .profile-image {
+  align-items: flex-end;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -23,6 +27,7 @@ body {
 }
 
 .logo {
+  
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -45,4 +50,6 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 16px;
 }
